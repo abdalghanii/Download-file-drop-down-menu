@@ -1,14 +1,14 @@
 import Navbar from './Navbar';
 // ...
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header>
       <div className="nav-area">
-        <Link to="/" className="logo">
+        {/* <Link to="/" className="logo">
           Logo
-        </Link>
+        </Link> */}
         <Navbar />
       </div>
     </header>
